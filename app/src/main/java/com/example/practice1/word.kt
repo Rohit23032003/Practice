@@ -1,4 +1,4 @@
-package com.example.practice1
+package com.example.Word_App
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,8 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.practice1.databinding.FragmentLetterBinding
-import com.example.practice1.databinding.FragmentWordBinding
+import com.example.Word_App.databinding.FragmentLetterBinding
+import com.example.Word_App.databinding.FragmentWordBinding
 
 class word : Fragment() {
 //    // TODO: Rename and change types of parameters

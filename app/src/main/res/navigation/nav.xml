@@ -7,8 +7,8 @@
 
     <fragment
         android:id="@+id/letter"
-        android:name="com.example.practice1.letter"
-        android:label="Practice1"
+        android:name="com.example.Word_App.letter"
+        android:label="Word_App"
         >
         <action
             android:id="@+id/action_letter_to_word_two"
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/word"
-        android:name="com.example.practice1.word"
+        android:name="com.example.Word_App.word"
         android:label="fragment_words"
         tools:layout="@layout/fragment_word" >
         <argument

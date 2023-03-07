@@ -1,4 +1,4 @@
-package com.example.practice1
+package com.example.Word_App
 
 import org.junit.Test
 

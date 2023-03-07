@@ -1,4 +1,4 @@
-package com.example.practice1
+package com.example.Word_App
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import android.widget.Button
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
-import com.example.practice1.databinding.FragmentLetterBinding
+import com.example.Word_App.databinding.FragmentLetterBinding
 
 class LetterAdapter :RecyclerView.Adapter<LetterAdapter.viewHolder>() {
     class viewHolder(val view: View):RecyclerView.ViewHolder(view){

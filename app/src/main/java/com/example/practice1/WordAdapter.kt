@@ -1,4 +1,4 @@
-package com.example.practice1
+package com.example.Word_App
 
 import android.content.Context
 import android.content.Intent
@@ -8,7 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.recyclerview.widget.RecyclerView
-import com.example.practice1.word.Companion.SEARCH_PREFIX
+import com.example.Word_App.word.Companion.SEARCH_PREFIX
 
 class WordAdapter(val letterid:String, context: Context):
     RecyclerView.Adapter<WordAdapter.viewHolders>() {
